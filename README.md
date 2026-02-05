@@ -6,120 +6,120 @@ PRN: 25070123096
 
 Experiment No.: 5
 
-Aim
+AIM
 
 The aim of this experiment is to study the Dictionary data type in Python and understand its creation, properties, and operations such as accessing values, updating elements, deleting key-value pairs, searching data, and applying dictionaries to real-life problems like student records, product management, and login validation.
 
-Theory
+THEORY
 
-A dictionary in Python is a collection of data stored in key-value pairs. Dictionaries are written using curly braces {}, with keys and values separated by a colon :.
+1.A dictionary in Python is a collection of data stored in key-value pairs. Dictionaries are written using curly braces {}, with keys and values separated by a colon :.
 
-Each key must be unique, while values can be of any data type.
+2.Each key must be unique, while values can be of any data type.
 
-Key Characteristics of Dictionary
+3.Key Characteristics of Dictionary
 
-Stores data in key-value format
+4.Stores data in key-value format
 
-Keys must be unique and immutable
+5.Keys must be unique and immutable
 
-Values can be of any data type
+6.Values can be of any data type
 
-Mutable (values can be changed)
+7.Mutable (values can be changed)
 
-Does not support indexing
+8.Does not support indexing
 
-Algorithms
+ALGORITHMS
 Algorithm 1: Creation and Display of Dictionary
 
-Create a dictionary with keys such as Brand, Model, and Year.
+1.Create a dictionary with keys such as Brand, Model, and Year.
 
-Print the dictionary.
+2.Print the dictionary.
 
-Algorithm 2: Accessing Values Using Keys
+3.Algorithm 2: Accessing Values Using Keys
 
-Create a dictionary with car details.
+4.Create a dictionary with car details.
 
-Access the value using its key.
+5.Access the value using its key.
 
-Display the value.
+6.Display the value.
 
 Algorithm 3: Duplicate Keys Handling in Dictionary
 
-Create a dictionary with duplicate keys.
+1.Create a dictionary with duplicate keys.
 
-Assign different values to the same key.
+2.Assign different values to the same key.
 
-Print the dictionary.
+3.Print the dictionary.
 
-Observe that the latest value overwrites the previous one.
+4.Observe that the latest value overwrites the previous one.
 
 Algorithm 4: Finding Length and Type of Dictionary
 
-Create a dictionary.
+1.Create a dictionary.
 
-Use len() to count key-value pairs.
+2.Use len() to count key-value pairs.
 
-Use type() to check the data type.
+3.Use type() to check the data type.
 
 Algorithm 5: Adding and Updating Dictionary Elements
 
-Create a dictionary with car details.
+1.Create a dictionary with car details.
 
-Use the update() method to add a new key-value pair.
+2.Use the update() method to add a new key-value pair.
 
-Display the updated dictionary.
+3.Display the updated dictionary.
 
-Use the values() method to retrieve all values.
+4.Use the values() method to retrieve all values.
 
 Algorithm 6: Retrieving and Removing Dictionary Elements
 
-Create a dictionary storing student information.
+1.Create a dictionary storing student information.
 
-Retrieve a value using a key.
+2.Retrieve a value using a key.
 
-Remove a key-value pair using pop().
+3.Remove a key-value pair using pop().
 
-Print the updated dictionary.
+4.Print the updated dictionary.
 
 Algorithm 7: Updating Product Prices
 
-Create a dictionary storing product names and prices.
+1.Create a dictionary storing product names and prices.
 
-Display the original dictionary.
+2.Display the original dictionary.
 
-Update the price of a product.
+3.Update the price of a product.
 
-Display the updated dictionary.
+4.Display the updated dictionary.
 
 Algorithm 8: Searching Student Marks
 
-Create a dictionary storing student names and marks.
+1.Create a dictionary storing student names and marks.
 
-Take student name as input.
+2.Take student name as input.
 
-Check if the name exists in the dictionary.
+3.Check if the name exists in the dictionary.
 
-Display marks if found, else display an error message.
+4.Display marks if found, else display an error message.
 
 Algorithm 9: User Login Validation
 
-Create a dictionary storing usernames and passwords.
+1.Create a dictionary storing usernames and passwords.
 
-Accept username and password from the user.
+2.Accept username and password from the user.
 
-Check if the username exists in the dictionary.
+3.Check if the username exists in the dictionary.
 
-Display login success or failure message.
+4.Display login success or failure message.
 
 Algorithm 10: Finding Highest Marks
 
-Create a dictionary of students and their marks.
+1.Create a dictionary of students and their marks.
 
-Use the max() function with the get() method.
+2.Use the max() function with the get() method.
 
-Display the student with the highest marks.
+3.Display the student with the highest marks.
 
-Definition of Commands Used
+DEFINATION OF COMMANDS USED
 
 dict: Built-in data type used to store key-value pairs
 
