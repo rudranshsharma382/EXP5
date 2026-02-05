@@ -1,4 +1,3 @@
-Experiment 5: Study of Dictionary in Python
 Student Details
 
 Name: Rudransh Sharma
@@ -13,7 +12,9 @@ The aim of this experiment is to study the Dictionary data type in Python and un
 
 Theory
 
-A dictionary in Python is a collection of data stored in key-value pairs. Dictionaries are written using curly braces {} with keys and values separated by a colon :. Each key in a dictionary must be unique, while values can be of any data type.
+A dictionary in Python is a collection of data stored in key-value pairs. Dictionaries are written using curly braces {}, with keys and values separated by a colon :.
+
+Each key must be unique, while values can be of any data type.
 
 Key Characteristics of Dictionary
 
@@ -64,11 +65,11 @@ Algorithm 5: Adding and Updating Dictionary Elements
 
 Create a dictionary with car details.
 
-Use update() method to add a new key-value pair.
+Use the update() method to add a new key-value pair.
 
-Display updated dictionary.
+Display the updated dictionary.
 
-Use values() method to retrieve all values.
+Use the values() method to retrieve all values.
 
 Algorithm 6: Retrieving and Removing Dictionary Elements
 
@@ -84,11 +85,11 @@ Algorithm 7: Updating Product Prices
 
 Create a dictionary storing product names and prices.
 
-Display original dictionary.
+Display the original dictionary.
 
 Update the price of a product.
 
-Display updated dictionary.
+Display the updated dictionary.
 
 Algorithm 8: Searching Student Marks
 
@@ -96,17 +97,17 @@ Create a dictionary storing student names and marks.
 
 Take student name as input.
 
-Check if the name exists in dictionary.
+Check if the name exists in the dictionary.
 
-Display marks if found, else display error message.
+Display marks if found, else display an error message.
 
 Algorithm 9: User Login Validation
 
 Create a dictionary storing usernames and passwords.
 
-Accept username and password from user.
+Accept username and password from the user.
 
-Check if username exists in dictionary.
+Check if the username exists in the dictionary.
 
 Display login success or failure message.
 
@@ -114,34 +115,36 @@ Algorithm 10: Finding Highest Marks
 
 Create a dictionary of students and their marks.
 
-Use max() function with get() method.
+Use the max() function with the get() method.
 
-Display the student with highest marks.
+Display the student with the highest marks.
 
 Definition of Commands Used
 
-dict: Built-in data type used to store key-value pairs.
+dict: Built-in data type used to store key-value pairs
 
-len(): Returns the number of key-value pairs.
+len(): Returns the number of key-value pairs
 
-type(): Returns the data type of the variable.
+type(): Returns the data type of the variable
 
-update(): Adds or updates key-value pairs in a dictionary.
+update(): Adds or updates key-value pairs in a dictionary
 
-values(): Returns all values from the dictionary.
+values(): Returns all values from the dictionary
 
-pop(): Removes a specified key and returns its value.
+pop(): Removes a specified key and returns its value
 
-in: Checks if a key exists in dictionary.
+in: Checks if a key exists in the dictionary
 
-max(): Returns key with maximum value using get().
+max(): Returns key with maximum value using get()
 
-get(): Retrieves value of specified key.
+get(): Retrieves value of specified key
 
-input(): Takes input from user.
+input(): Takes input from the user
 
-print(): Displays output.
+print(): Displays output
 
 Conclusion
 
-In this experiment, we successfully studied the Dictionary data type in Python and its operations. We learned how to create dictionaries, access and modify values, remove elements, search records, and apply dictionaries to real-world problems such as student databases, product management, and login systems. Dictionaries provide an efficient and organized way to store and manage data using key-value pairs.
+In this experiment, we successfully studied the Dictionary data type in Python and its operations. We learned how to create dictionaries, access and modify values, remove elements, search records, and apply dictionaries to real-world problems such as student databases, product management, and login systems.
+
+Dictionaries provide an efficient and organized way to store and manage data using key-value pairs.
