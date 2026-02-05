@@ -29,6 +29,7 @@ THEORY
 8.Does not support indexing
 
 ALGORITHMS
+
 Algorithm 1: Creation and Display of Dictionary
 
 1.Create a dictionary with keys such as Brand, Model, and Year.
